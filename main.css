@@ -1,0 +1,78 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 20%;
+    height: 30%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    
+}
+
+h1 {
+    padding: 20px;
+    color: #818181;
+    
+}
+
+h2 {
+    color: #fdffff;
+    font-weight: lighter;
+    font-size: 35px;
+    text-align: center;
+}
+
+ body {
+    transition: opacity 0.5s ease-in-out;
+    background-color: #008080;
+  }
+  
+ .hidden {
+    opacity: 0;
+  }
+
+  .cloudybckgrnd {
+    background-image: url(img/cloud-background.jpeg);
+    background-position: center;
+    display: flex;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  span {
+    color: white;
+  }
+
+  .imgicon {
+    height:80px ;
+    width: 80px ;
+    margin: auto;
+    float: left;
+    padding: 20px;
+  }
+
+  .press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .graybckgrnd {
+    background-color: #818181;
+    padding: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .smallicon {
+    height:20px ;
+    width: 20px ;
+    float: left;
+
+
+  }
